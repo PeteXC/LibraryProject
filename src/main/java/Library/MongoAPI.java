@@ -32,6 +32,7 @@ public class MongoAPI {
         this.collection = database.getCollection(String.valueOf(selection));
     }
 
+    // Compose the DBObject for a Customer domain object
     public static final DBObject getCustomerObj(Customers c) {
         return new BasicDBObject("ID", c.getID())
                 .append("First Name", c.getFirstName())
@@ -44,7 +45,27 @@ public class MongoAPI {
                 .append("Books on Loan", c.getBooksOnLoanIDs());
     }
 
-    public final void storeObj(DBObject obj) {
-        this.collection.insert(obj);
+    // Store an object into a specified collection
+    public final void storeObj(DBObject obj, SelectCollection col) {
+
+        if (this.selectedCollection == col) {
+
+            this.collection.insert(obj);
+
+        } else {
+
+            this.selectedCollection = col;
+            this.collection.insert(obj);
+
+        }
+    }
+
+    public final void deletePeopleObj(DBObject obj) {
+        this.collection.remove(obj);
+//        DBObject query = new BasicDBObject("ID", obj.)
+    }
+
+    public final void debugPeopleObj(DBObject obj) {
+
     }
 }
