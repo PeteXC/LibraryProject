@@ -63,7 +63,7 @@ public class MongoAPI {
         DBCursor cursor = collection.find(query);
         DBObject a = cursor.one();
         this.collection.remove(a);
-        if (debug) {System.out.println("Removed Object");};
+        if (debug) {System.out.println("Removed Object " + a.toString());};
 //        DBObject query = new BasicDBObject("ID", obj.)
     }
 
@@ -71,6 +71,6 @@ public class MongoAPI {
         DBObject query = new BasicDBObject("ID", ID);
         DBCursor cursor = collection.find(query);
         DBObject a = cursor.one();
-        System.out.println((String)cursor.one().get("firstName"));
+        System.out.println("Object:\n" + a.toString() + "\n");
     }
 }

@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf5629c-2182-4ff4-99d2-50b328691000" name="Default Changelist" comment="Completed and made a basic MongoAPI class&#10;&#10;It works so far, needs major upgrades in order for future GUI to interact with properly">
-      <change afterPath="$PROJECT_DIR$/.idea/LibraryProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongo_java_driver_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/Employees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Library/MongoAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/MongoAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Library/Customers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/Customers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Library/Employees.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/Employees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Library/Items.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/Items.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/Library.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Library/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Library/MongoAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/MongoAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Library/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/People.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Library/SelectCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/SelectCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,6 +131,7 @@
       <workItem from="1568501086314" duration="2012000" />
       <workItem from="1568503167364" duration="182000" />
       <workItem from="1568503374326" duration="2687000" />
+      <workItem from="1568555917686" duration="449000" />
     </task>
     <servers />
   </component>

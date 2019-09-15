@@ -16,7 +16,7 @@ public class Main {
 
         db.storeObj(MongoAPI.getCustomerObj(c), SelectCollection.CUSTOMERS, true);
         db.debugPeopleObj("1");
-//        db.deletePeopleObj("1", true);
+        db.deletePeopleObj("1", true);
 
 
         System.out.println("Session terminated");
