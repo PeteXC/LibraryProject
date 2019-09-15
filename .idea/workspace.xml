@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf5629c-2182-4ff4-99d2-50b328691000" name="Default Changelist" comment="Completed and made a basic MongoAPI class&#10;&#10;It works so far, needs major upgrades in order for future GUI to interact with properly">
+    <list default="true" id="fbf5629c-2182-4ff4-99d2-50b328691000" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/Employees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Library/MongoAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/MongoAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Library/Employees.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/Employees.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Library/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Library/MongoAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/MongoAPI.class" afterDir="false" />
     </list>
@@ -22,6 +24,11 @@
       <list>
         <option value="Peter &lt;peterchai2008@hotmail.co.uk&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -131,8 +138,16 @@
       <workItem from="1568501086314" duration="2012000" />
       <workItem from="1568503167364" duration="182000" />
       <workItem from="1568503374326" duration="2687000" />
-      <workItem from="1568555917686" duration="449000" />
+      <workItem from="1568555917686" duration="1824000" />
     </task>
+    <task id="LOCAL-00001" summary="Improved debug and delete methods from MongoAPI">
+      <created>1568556480089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568556480089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +168,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed and made a basic MongoAPI class&#10;&#10;It works so far, needs major upgrades in order for future GUI to interact with properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed and made a basic MongoAPI class&#10;&#10;It works so far, needs major upgrades in order for future GUI to interact with properly" />
+    <MESSAGE value="Improved debug and delete methods from MongoAPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved debug and delete methods from MongoAPI" />
   </component>
 </project>

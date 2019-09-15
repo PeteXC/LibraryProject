@@ -27,7 +27,7 @@ public class MongoAPI {
     }
 
     // Compose the DBObject for a Customer domain object
-    public static final DBObject getCustomerObj(Customers c) {
+    public static final DBObject getCustomerObj_DB(Customers c) {
         return new BasicDBObject("_id", c.getFirstName() + " " + c.getLastName())
                 .append("ID", c.getID())
                 .append("First Name", c.getFirstName())
@@ -38,6 +38,34 @@ public class MongoAPI {
                 .append("Age", c.getAge())
                 .append("Has Loan?", c.isBooksOnLoan())
                 .append("Books on Loan", c.getBooksOnLoanIDs());
+    }
+
+    // Compose the DBObject for a Employee domain object
+    public static final DBObject getEmployeeObj_DB(Employees e) {
+        return new BasicDBObject("_id", e.getFirstName() + " " + e.getLastName())
+                .append("ID", e.getID())
+                .append("First Name", e.getFirstName())
+                .append("Last Name", e.getLastName())
+                .append("Email", e.getEmail())
+                .append("Post Code", e.getPostCode())
+                .append("Phone Number", e.getPhoneNum())
+                .append("Age", e.getAge())
+                .append("Salary", e.getSalary())
+                .append("Job Title", e.getJobTitle())
+                .append("Security Level", e.getSecurityLevel());
+    }
+
+    public static final Employees getEmployeeObj_DOM(DBObject e) {
+        return new Employees(e.get("ID").toString(),
+                e.get("First Name").toString(),
+                e.get("Last Name").toString(),
+                e.get("Email").toString(),
+                e.get("Post Code").toString(),
+                e.get("Phone Number").toString(),
+                Integer.parseInt(e.get("Age").toString()),
+                Integer.parseInt(e.get("Salary").toString()),
+                e.get("Job Title").toString(),
+                Integer.parseInt(e.get("Security Level").toString()));
     }
 
     // Store an object into a specified collection
