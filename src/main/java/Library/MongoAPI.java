@@ -2,13 +2,7 @@ package Library;
 
 import com.mongodb.*;
 
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
-import com.mongodb.MongoClient;
-import com.mongodb.MongoClientURI;
-
 import java.net.UnknownHostException;
-import Library.SelectCollection;
 
 public class MongoAPI {
 
@@ -34,7 +28,8 @@ public class MongoAPI {
 
     // Compose the DBObject for a Customer domain object
     public static final DBObject getCustomerObj(Customers c) {
-        return new BasicDBObject("ID", c.getID())
+        return new BasicDBObject("_id", c.getFirstName() + " " + c.getLastName())
+                .append("ID", c.getID())
                 .append("First Name", c.getFirstName())
                 .append("Last Name", c.getLastName())
                 .append("Email", c.getEmail())
@@ -46,26 +41,36 @@ public class MongoAPI {
     }
 
     // Store an object into a specified collection
-    public final void storeObj(DBObject obj, SelectCollection col) {
+    public final void storeObj(DBObject obj, SelectCollection col, boolean debug) {
 
         if (this.selectedCollection == col) {
 
             this.collection.insert(obj);
+            if (debug) {System.out.println("Stored Object");};
 
         } else {
 
             this.selectedCollection = col;
             this.collection.insert(obj);
+            if (debug) {System.out.println("Stored Object");};
+
 
         }
     }
 
-    public final void deletePeopleObj(DBObject obj) {
-        this.collection.remove(obj);
+    public final void deletePeopleObj(String ID, boolean debug) {
+        DBObject query = new BasicDBObject("ID", ID);
+        DBCursor cursor = collection.find(query);
+        DBObject a = cursor.one();
+        this.collection.remove(a);
+        if (debug) {System.out.println("Removed Object");};
 //        DBObject query = new BasicDBObject("ID", obj.)
     }
 
-    public final void debugPeopleObj(DBObject obj) {
-
+    public final void debugPeopleObj(String ID) {
+        DBObject query = new BasicDBObject("ID", ID);
+        DBCursor cursor = collection.find(query);
+        DBObject a = cursor.one();
+        System.out.println((String)cursor.one().get("firstName"));
     }
 }

@@ -10,6 +10,16 @@ public abstract class People {
     private String phoneNum;
     private int age;
 
+    public People(String ID, String firstName, String lastName, String email, String postCode, String phoneNum, int age) {
+        this.ID = ID;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.postCode = postCode;
+        this.phoneNum = phoneNum;
+        this.age = age;
+    }
+
     public String getFirstName() {
         return firstName;
     }
