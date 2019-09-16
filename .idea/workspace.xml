@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf5629c-2182-4ff4-99d2-50b328691000" name="Default Changelist" comment="Completed and made a basic MongoAPI class&#10;&#10;It works so far, needs major upgrades in order for future GUI to interact with properly">
-      <change afterPath="$PROJECT_DIR$/.idea/LibraryProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongo_java_driver_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+    <list default="true" id="fbf5629c-2182-4ff4-99d2-50b328691000" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/Employees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Library/MongoAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/MongoAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Library/Customers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/Customers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Library/Employees.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/Employees.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Library/Items.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/Items.class" afterDir="false" />
@@ -23,9 +12,9 @@
       <change beforePath="$PROJECT_DIR$/target/classes/Library/MongoAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/MongoAPI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Library/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/People.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Library/SelectCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Library/SelectCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +23,52 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Customers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Library/Customers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="method#Customers#0;class#Customers#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Library/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MongoAPI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Library/MongoAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -41,8 +76,86 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/Library/Customers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Library/MongoAPI.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectId" id="1QqbTzH0RbJIBr2Y5YJJms5AuGq" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LibraryProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -61,7 +174,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -79,9 +192,6 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Library.Main" />
       <module name="LibraryProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Primary Build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -104,7 +214,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
-      <method v="2">
+      <method>
         <option name="Maven.BeforeRunTask" enabled="true" file="C:\Users\peter\Projects\Java\LibraryProject/pom.xml" goal="package" />
       </method>
     </configuration>
@@ -129,7 +239,7 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
-      <method v="2">
+      <method>
         <option name="Maven.BeforeRunTask" enabled="true" file="C:\Users\peter\Projects\Java\LibraryProject/pom.xml" goal="" />
       </method>
     </configuration>
@@ -148,8 +258,45 @@
       <workItem from="1568501086314" duration="2012000" />
       <workItem from="1568503167364" duration="182000" />
       <workItem from="1568503374326" duration="2687000" />
+      <workItem from="1568555917686" duration="1824000" />
     </task>
+    <task id="LOCAL-00001" summary="Improved debug and delete methods from MongoAPI">
+      <created>1568556480089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568556480089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1536" height="864" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2931472" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17603749" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -160,6 +307,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -167,8 +320,48 @@
       </map>
     </option>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed and made a basic MongoAPI class&#10;&#10;It works so far, needs major upgrades in order for future GUI to interact with properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed and made a basic MongoAPI class&#10;&#10;It works so far, needs major upgrades in order for future GUI to interact with properly" />
+    <MESSAGE value="Improved debug and delete methods from MongoAPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved debug and delete methods from MongoAPI" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Library/Customers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="method#Customers#0;class#Customers#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Library/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Library/MongoAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

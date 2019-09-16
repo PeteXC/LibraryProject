@@ -14,9 +14,10 @@ public class Main {
                 "1", "Daniel", "Radcliffe", "DRad@gmail.com",
                 "SE45E45", "93920049", 30, true, new String[]{"1", "2"});
 
-        db.storeObj(MongoAPI.getCustomerObj(c), SelectCollection.CUSTOMERS, true);
+        db.storeObj(MongoAPI.getCustomerObj_DB(c), SelectCollection.CUSTOMERS, true);
         db.debugPeopleObj("1");
-//        db.deletePeopleObj("1", true);
+        db.deletePeopleObj("1", true);
+
 
 
         System.out.println("Session terminated");

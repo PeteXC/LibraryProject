@@ -26,8 +26,21 @@ public class MongoAPI {
         this.collection = database.getCollection(String.valueOf(selection));
     }
 
+    // Compose the Domain object for Customer DBObject
+    public static final Customers getCustomerObj_DOM(DBObject c) {
+        return new Customers(c.get("ID").toString(),
+                c.get("First Name").toString(),
+                c.get("Last Name").toString(),
+                c.get("Email").toString(),
+                c.get("Post Code").toString(),
+                c.get("Phone Number").toString(),
+                Integer.parseInt(c.get("Age").toString()),
+                Boolean.parseBoolean(c.get("Has Loan?").toString()),
+                new String[]{"1", "2"});    //TODO: This is just a temporary placeholder, need to figure out how to streamline
+    }
+
     // Compose the DBObject for a Customer domain object
-    public static final DBObject getCustomerObj(Customers c) {
+    public static final DBObject getCustomerObj_DB(Customers c) {
         return new BasicDBObject("_id", c.getFirstName() + " " + c.getLastName())
                 .append("ID", c.getID())
                 .append("First Name", c.getFirstName())
@@ -38,6 +51,35 @@ public class MongoAPI {
                 .append("Age", c.getAge())
                 .append("Has Loan?", c.isBooksOnLoan())
                 .append("Books on Loan", c.getBooksOnLoanIDs());
+    }
+
+    // Compose the Domain object for Employee DBObject
+    public static final Employees getEmployeeObj_DOM(DBObject e) {
+        return new Employees(e.get("ID").toString(),
+                e.get("First Name").toString(),
+                e.get("Last Name").toString(),
+                e.get("Email").toString(),
+                e.get("Post Code").toString(),
+                e.get("Phone Number").toString(),
+                Integer.parseInt(e.get("Age").toString()),
+                Integer.parseInt(e.get("Salary").toString()),
+                e.get("Job Title").toString(),
+                Integer.parseInt(e.get("Security Level").toString()));
+    }
+
+    // Compose the DBObject for a Employee domain object
+    public static final DBObject getEmployeeObj_DB(Employees e) {
+        return new BasicDBObject("_id", e.getFirstName() + " " + e.getLastName())
+                .append("ID", e.getID())
+                .append("First Name", e.getFirstName())
+                .append("Last Name", e.getLastName())
+                .append("Email", e.getEmail())
+                .append("Post Code", e.getPostCode())
+                .append("Phone Number", e.getPhoneNum())
+                .append("Age", e.getAge())
+                .append("Salary", e.getSalary())
+                .append("Job Title", e.getJobTitle())
+                .append("Security Level", e.getSecurityLevel());
     }
 
     // Store an object into a specified collection
@@ -63,7 +105,7 @@ public class MongoAPI {
         DBCursor cursor = collection.find(query);
         DBObject a = cursor.one();
         this.collection.remove(a);
-        if (debug) {System.out.println("Removed Object");};
+        if (debug) {System.out.println("Removed Object " + a.toString());};
 //        DBObject query = new BasicDBObject("ID", obj.)
     }
 
@@ -71,6 +113,6 @@ public class MongoAPI {
         DBObject query = new BasicDBObject("ID", ID);
         DBCursor cursor = collection.find(query);
         DBObject a = cursor.one();
-        System.out.println((String)cursor.one().get("firstName"));
+        System.out.println("Object:\n" + a.toString() + "\n");
     }
 }
