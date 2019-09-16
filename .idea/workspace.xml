@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf5629c-2182-4ff4-99d2-50b328691000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Library/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Library/ItemType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Library/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Books.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Books.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Library/Books.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
@@ -99,6 +96,15 @@
                 <element signature="e#746#747#0" expanded="true" />
                 <element signature="e#785#786#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -155,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Library/ItemType.java" />
         <option value="$PROJECT_DIR$/src/main/java/Library/Items.java" />
         <option value="$PROJECT_DIR$/src/main/java/Library/Books.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -348,11 +355,11 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2931472" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2931472" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17603749" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17603749" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -492,6 +499,13 @@
             <element signature="e#746#747#0" expanded="true" />
             <element signature="e#785#786#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
